@@ -1,4 +1,4 @@
-# StructureNet Experiments
+#  Experiments
 This folder includes the StructureNet experiments for AE reconstruction and VAE generation using both box-shape and point cloud representations. 
 
 ## Before start
@@ -28,7 +28,7 @@ To test the model, run
 
     bash scripts/eval_recon_box_ae_chair.sh
 
-After running this script, the evaluation statistics reported in Table 1 of the paper will be stored at `../data/results/box_ae_chair/stats.txt`.
+Afer running this script, the evaluation statistics reported in Table 1 of the paper will be stored at `../data/results/box_ae_chair/stats.txt`.
 
 You can use `vis_box.ipynb` to visualize the box-shape reconstruction results.
 
